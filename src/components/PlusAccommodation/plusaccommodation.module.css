@@ -1,0 +1,70 @@
+.container {
+  height: 389px;
+  width: 100%;
+  position: relative;
+  padding: 0px 36px;
+  overflow-x: hidden;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  position: absolute;
+  left: 36px;
+  top: 0;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18.75px;
+  position: absolute;
+  left: 36px;
+  top: 36px;
+}
+
+.bigCard {
+  background-image: url(../../assets/plus_accommodation.png);
+  background-size:cover;
+  background-position: center;
+  position: absolute;
+  bottom: 0;
+  width: 95.5%;
+  height: 79%;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+}
+
+.at {
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 140px;
+  color: white;
+}
+
+.buttonPA {
+  width: 200px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: none;
+  padding: auto;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.textButton {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+}

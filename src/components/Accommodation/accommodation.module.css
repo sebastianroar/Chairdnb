@@ -1,0 +1,119 @@
+.layout {
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+}
+  
+.cardContainer {
+  width: 290px;
+  height: 267px; 
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 16px 16px 16px 0px;
+  cursor: pointer;
+}
+  
+.cardImage {
+  display: block;
+  pointer-events: none;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  border-radius: 4px;
+  top: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+}
+  
+.cardInfoContainer {
+  position: absolute;
+  top: 208px;
+}
+
+.textPrice {
+  width: 289px;
+  height: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 8px;
+}
+
+.textName{
+  height: 14px;
+  width: 159px;
+  top: 215px;
+  left: 87px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  width: 36px;
+  height: 14px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  gap: 4px;
+}
+  
+.ratingText {
+  width: 24px;
+  height: 14px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.grid {
+  display: grid;
+  padding: 0;
+  margin: 0;
+  grid-auto-flow: auto;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.horizontalGroup {
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hostContainer {
+  height: 28px;
+  width: 74px;
+  box-sizing: border-box;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: 1px solid #484848;
+  border-radius: 2px;
+}
+
+.hostText {
+  position: relative;
+  left: 10.81%;
+  right: 10.81%;
+  top: 28.57%;
+  bottom: 28.57%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+}

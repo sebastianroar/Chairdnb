@@ -1,0 +1,39 @@
+.layout {
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 40px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  color: #484848;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cards a {
+  display: flex;
+  width: 350px;
+  text-decoration: none;
+  color: #484848;
+  gap: 24px;
+  align-items: center;
+  margin: 0.4em;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 3px 3px rgba(128, 128, 128, 0.335);
+  cursor: pointer;
+}
+
+.cards img {
+  border-radius: 10px 0 0 10px;
+  max-width: 100px;
+}

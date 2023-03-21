@@ -1,0 +1,21 @@
+.hero {
+  background-image: url("../../assets/hero.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 1.2em;
+  padding-top: 1em;
+  color: white;
+}
+
+.children {
+  margin-left: 4em;
+  margin-top: 4em;
+}

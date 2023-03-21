@@ -1,0 +1,63 @@
+.cardContainer {
+  width: 188px;
+  height: 371px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 16px 16px 16px 0px;
+}
+
+.cardImage {
+  display: block;
+  pointer-events: none;
+  width: 100%;
+  height: 240px;
+  position: absolute;
+  top: 0;
+  border-radius: 8px;
+}
+
+.cardInfoContainer {
+  position: absolute;
+  top: 248px;
+}
+
+.textCountry {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  color: #767676;
+  text-transform: uppercase;
+}
+
+.textBody {
+  margin: 4px 0px 8px 0px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #484848;
+}
+
+.textPrice {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #484848;
+}
+
+.ratingContainer {
+  display: flex;
+  width: 30px;
+  height: 14px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  gap: 4px;
+}
+
+.ratingText {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #008489;
+}

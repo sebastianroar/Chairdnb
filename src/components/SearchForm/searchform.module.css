@@ -1,0 +1,96 @@
+.container {
+  background-color: white;
+  width: 391px;
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 32px 24px;
+  border-radius: 8px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37.5px;
+  width: fit-content;
+  color: #484848;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 343px;
+  height: 70px;
+  margin: 16px 0px;
+}
+
+.inputGroup2 {
+  display: flex;
+  margin: 16px 0px;
+  width: 343px;
+  height: 70px;
+  justify-content: space-between;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  width: 171.5px;
+  height: 70px;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+}
+
+.label {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #484848;
+}
+
+.input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  width: 343px;
+  height: 48px;
+  padding: 16px;
+  border: 1px solid #E3E3E3;
+  color: #484848;
+}
+
+.input2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  width: 171.5px;
+  height: 48px;
+  padding: 16px;
+  margin-top: 8px;
+  border: 1px solid #E3E3E3;
+  color: #484848;
+}
+
+.searchButton {
+  width: 146px;
+  height: 48px;
+  background-color: #ff5a5f;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  right: 24px;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background-color: #ed555a;
+}
