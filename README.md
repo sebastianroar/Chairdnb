@@ -1,5 +1,7 @@
 # Chairdnb
 
+<img width="622" alt="Screenshot 2023-04-28 at 11 17 56" src="https://github.com/sebastianroar/Chairdnb/assets/112570917/60871739-5447-40f6-9fb7-d601c59e677b">
+
 Chairdnb is a React project inspired by Airbnb's vision to offer great accommodations and experiences to travelers. Chairdnb (chair, desk, and breakfast) aims to provide developers with the best destinations to work and have an amazing coding experience around the world.
 
 ## Features
